@@ -15,7 +15,6 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git branch: 'main',
                             git "https://github.com/whakkhanna/trform"
                         }
                     }
